@@ -19,8 +19,7 @@ public class DrawShapes {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //int maxCount;
-        //Random rnd = ;        
+ 
         int maxCount = randomInt(1, 10);
         CustomShape[] shapes = new CustomShape[maxCount];
 
