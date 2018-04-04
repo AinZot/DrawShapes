@@ -20,6 +20,9 @@ public class DrawShapes {
      */
     public static void main(String[] args) {
  
+        //uncomment to use in Windows cmd
+        //System.setOut(new java.io.PrintStream(System.out, true, "Cp866"));
+        
         int maxCount = randomInt(1, 10);
         CustomShape[] shapes = new CustomShape[maxCount];
 
